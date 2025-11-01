@@ -1,0 +1,211 @@
+{
+  "metadata": {
+    "config_type": "Crafting Configuration",
+    "total_recipes": 2,
+    "generated_at": "2025-11-02 00:17:46",
+    "version": "1.0.0",
+    "source": "Game Crafting Config Parser"
+  },
+  "categories": {
+    "output_rarities": [
+      "Prestigious"
+    ],
+    "requirement_categories": [
+      "Item",
+      "Pet"
+    ],
+    "unique_materials": [
+      "Diamond",
+      "Fallen Angel",
+      "Feather",
+      "Seraphim Wing",
+      "Red Martian",
+      "Celestial Gem",
+      "Snow Angel",
+      "Painting Board",
+      "Angel Statue",
+      "Galaxy",
+      "Apple",
+      "Timeworn Crown",
+      "Eclipse Dragon",
+      "Ghost Bride",
+      "Satelite",
+      "Angel Engine",
+      "Chrono Relic",
+      "Sunflower",
+      "Ruby",
+      "Rose",
+      "Crimson Devil",
+      "Sapphire",
+      "Crewmate"
+    ]
+  },
+  "recipes": [
+    {
+      "output": "Awakened: Angel Engine",
+      "price": 29999999999,
+      "rarity": "Prestigious",
+      "requirements": [
+        {
+          "name": "Angel Engine",
+          "amount": 10,
+          "category": "Item"
+        },
+        {
+          "name": "Seraphim Wing",
+          "amount": 44,
+          "category": "Item"
+        },
+        {
+          "name": "Celestial Gem",
+          "amount": 99,
+          "category": "Item"
+        },
+        {
+          "name": "Angel Statue",
+          "amount": 111,
+          "category": "Item"
+        },
+        {
+          "name": "Diamond",
+          "amount": 444,
+          "category": "Item"
+        },
+        {
+          "name": "Sunflower",
+          "amount": 999,
+          "category": "Item"
+        },
+        {
+          "name": "Painting Board",
+          "amount": 444,
+          "category": "Item"
+        },
+        {
+          "name": "Sapphire",
+          "amount": 444,
+          "category": "Item"
+        },
+        {
+          "name": "Feather",
+          "amount": 4444,
+          "category": "Item"
+        },
+        {
+          "name": "Fallen Angel",
+          "amount": 444,
+          "category": "Pet"
+        },
+        {
+          "name": "Snow Angel",
+          "amount": 444,
+          "category": "Pet"
+        },
+        {
+          "name": "Ghost Bride",
+          "amount": 11,
+          "category": "Pet"
+        }
+      ]
+    },
+    {
+      "output": "Awakened: Galaxy",
+      "price": 7500000000,
+      "rarity": "Prestigious",
+      "requirements": [
+        {
+          "name": "Galaxy",
+          "amount": 10,
+          "category": "Item"
+        },
+        {
+          "name": "Satelite",
+          "amount": 25,
+          "category": "Item"
+        },
+        {
+          "name": "Crewmate",
+          "amount": 25,
+          "category": "Item"
+        },
+        {
+          "name": "Chrono Relic",
+          "amount": 25,
+          "category": "Item"
+        },
+        {
+          "name": "Timeworn Crown",
+          "amount": 250,
+          "category": "Item"
+        },
+        {
+          "name": "Ruby",
+          "amount": 250,
+          "category": "Item"
+        },
+        {
+          "name": "Rose",
+          "amount": 999,
+          "category": "Item"
+        },
+        {
+          "name": "Apple",
+          "amount": 999,
+          "category": "Item"
+        },
+        {
+          "name": "Red Martian",
+          "amount": 49,
+          "category": "Pet"
+        },
+        {
+          "name": "Crimson Devil",
+          "amount": 9,
+          "category": "Pet"
+        },
+        {
+          "name": "Eclipse Dragon",
+          "amount": 49,
+          "category": "Pet"
+        }
+      ]
+    }
+  ],
+  "statistics": {
+    "by_rarity": {
+      "Prestigious": 2
+    },
+    "by_complexity": {
+      "Complex": 2
+    },
+    "material_usage": {
+      "Feather": 4444,
+      "Sunflower": 999,
+      "Rose": 999,
+      "Apple": 999,
+      "Diamond": 444,
+      "Painting Board": 444,
+      "Sapphire": 444,
+      "Fallen Angel": 444,
+      "Snow Angel": 444,
+      "Timeworn Crown": 250
+    },
+    "category_distribution": {
+      "Item": 17,
+      "Pet": 6
+    },
+    "price_analysis": {
+      "min_price": 7500000000,
+      "max_price": 29999999999,
+      "average_price": 18749999999.5,
+      "total_value": 37499999999
+    },
+    "complexity_analysis": {
+      "min_requirements": 11,
+      "max_requirements": 12,
+      "average_requirements": 11.5,
+      "most_complex_recipe": "Awakened: Angel Engine",
+      "simplest_recipe": "Awakened: Galaxy"
+    }
+  }
+}

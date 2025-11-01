@@ -1,6 +1,6 @@
 'use client';
 
-import { Pet, rarityColors } from '@/data/gameData';
+import { Pet, rarityColors } from '@/data/dataLoader';
 
 interface PetTableProps {
   pets: Pet[];
@@ -49,38 +49,38 @@ export default function PetTable({ pets, title = "Pets" }: PetTableProps) {
             {pets.map((pet, index) => (
               <tr key={index} className="hover:bg-gray-50 transition-colors">
                 <td className="px-6 py-4 whitespace-nowrap">
-                  <div className="text-sm font-medium text-gray-900">{pet.name}</div>
+                  <div className="text-sm font-medium text-gray-900">{pet.Name}</div>
                 </td>
                 <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900 font-medium">
-                  {formatPrice(pet.price)}
+                  {formatPrice(pet.Price)}
                 </td>
                 <td className="px-6 py-4 whitespace-nowrap">
-                  <span className={`px-2 py-1 text-xs font-semibold rounded-full ${rarityColors[pet.rarity]}`}>
-                    {pet.rarity}
+                  <span className={`px-2 py-1 text-xs font-semibold rounded-full ${rarityColors[pet.Rarity]}`}>
+                    {pet.Rarity}
                   </span>
                 </td>
                 <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">
-                  {pet.chance || 'N/A'}
+                  {pet.Chance || 'N/A'}
                 </td>
                 <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">
-                  {pet.preferred || 'None'}
+                  {pet.Preferred || 'None'}
                 </td>
                 <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">
-                  {pet.expGain.toLocaleString()}
+                  {pet.ExpGain.toLocaleString()}
                 </td>
                 <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">
-                  {pet.exchangeRequired ? (
+                  {pet.ExchangeRequired ? (
                     <div className="text-xs">
-                      <div>{pet.exchangeRequired}</div>
-                      <div className="text-gray-500">x{pet.exchangeAmount}</div>
+                      <div>{pet.ExchangeRequired}</div>
+                      <div className="text-gray-500">x{pet.ExchangeAmount}</div>
                     </div>
                   ) : (
                     'None'
                   )}
                 </td>
                 <td className="px-6 py-4 text-sm text-gray-900 max-w-xs">
-                  <div className="truncate" title={pet.description}>
-                    {pet.description}
+                  <div className="truncate" title={pet.Description}>
+                    {pet.Description}
                   </div>
                 </td>
               </tr>

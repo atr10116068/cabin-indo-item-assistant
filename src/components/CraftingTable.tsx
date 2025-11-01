@@ -1,6 +1,6 @@
 'use client';
 
-import { CraftingRecipe, rarityColors } from '@/data/gameData';
+import { CraftingRecipe, rarityColors } from '@/data/dataLoader';
 
 interface CraftingTableProps {
   recipes: CraftingRecipe[];

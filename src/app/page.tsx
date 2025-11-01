@@ -6,7 +6,7 @@ import ItemTable from '@/components/ItemTable';
 import PetTable from '@/components/PetTable';
 import CraftingTable from '@/components/CraftingTable';
 import LevelRecommendations from '@/components/LevelRecommendations';
-import { items, pets, craftingRecipes } from '@/data/gameData';
+import { items, pets, craftingRecipes, dataStats } from '@/data/dataLoader';
 
 export default function Home() {
   const [searchQuery, setSearchQuery] = useState('');
@@ -16,10 +16,10 @@ export default function Home() {
     if (!searchQuery.trim()) return items;
     const query = searchQuery.toLowerCase();
     return items.filter(item => 
-      item.name.toLowerCase().includes(query) ||
-      item.description.toLowerCase().includes(query) ||
-      item.rarity.toLowerCase().includes(query) ||
-      item.preferred.toLowerCase().includes(query)
+      item.Name.toLowerCase().includes(query) ||
+      item.Description.toLowerCase().includes(query) ||
+      item.Rarity.toLowerCase().includes(query) ||
+      item.Preferred.toLowerCase().includes(query)
     );
   }, [searchQuery]);
 
@@ -27,10 +27,10 @@ export default function Home() {
     if (!searchQuery.trim()) return pets;
     const query = searchQuery.toLowerCase();
     return pets.filter(pet => 
-      pet.name.toLowerCase().includes(query) ||
-      pet.description.toLowerCase().includes(query) ||
-      pet.rarity.toLowerCase().includes(query) ||
-      pet.preferred.toLowerCase().includes(query)
+      pet.Name.toLowerCase().includes(query) ||
+      pet.Description.toLowerCase().includes(query) ||
+      pet.Rarity.toLowerCase().includes(query) ||
+      pet.Preferred.toLowerCase().includes(query)
     );
   }, [searchQuery]);
 

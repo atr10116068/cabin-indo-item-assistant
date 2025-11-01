@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { items, pets, levelRecommendations } from '@/data/gameData';
+import { items, pets, levelRecommendations } from '@/data/dataLoader';
 import ItemTable from './ItemTable';
 import PetTable from './PetTable';
 
@@ -21,11 +21,11 @@ export default function LevelRecommendations() {
     const recommended = levelRecommendations[category as keyof typeof levelRecommendations];
     
     const recommendedItems = items.filter(item => 
-      recommended.recommendedItems.includes(item.name)
+      recommended.recommendedItems.includes(item.Name)
     );
     
     const recommendedPets = pets.filter(pet => 
-      recommended.recommendedItems.includes(pet.name)
+      recommended.recommendedItems.includes(pet.Name)
     );
 
     return { items: recommendedItems, pets: recommendedPets, category: recommended };

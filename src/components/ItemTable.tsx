@@ -1,6 +1,6 @@
 'use client';
 
-import { Item, rarityColors } from '@/data/gameData';
+import { Item, rarityColors } from '@/data/dataLoader';
 
 interface ItemTableProps {
   items: Item[];
@@ -49,8 +49,8 @@ export default function ItemTable({ items, title = "Items" }: ItemTableProps) {
               <tr key={index} className="hover:bg-gray-50 transition-colors">
                 <td className="px-6 py-4 whitespace-nowrap">
                   <div className="flex items-center">
-                    <div className="text-sm font-medium text-gray-900">{item.name}</div>
-                    {item.limited && (
+                    <div className="text-sm font-medium text-gray-900">{item.Name}</div>
+                    {item.Limited && (
                       <span className="ml-2 px-2 py-1 text-xs font-semibold bg-red-100 text-red-800 rounded-full">
                         LIMITED
                       </span>
@@ -58,25 +58,25 @@ export default function ItemTable({ items, title = "Items" }: ItemTableProps) {
                   </div>
                 </td>
                 <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900 font-medium">
-                  {formatPrice(item.price)}
+                  {formatPrice(item.Price)}
                 </td>
                 <td className="px-6 py-4 whitespace-nowrap">
-                  <span className={`px-2 py-1 text-xs font-semibold rounded-full ${rarityColors[item.rarity]}`}>
-                    {item.rarity}
+                  <span className={`px-2 py-1 text-xs font-semibold rounded-full ${rarityColors[item.Rarity]}`}>
+                    {item.Rarity}
                   </span>
                 </td>
                 <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">
-                  {item.chance || 'N/A'}
+                  {item.Chance || 'N/A'}
                 </td>
                 <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">
-                  {item.preferred || 'None'}
+                  {item.Preferred || 'None'}
                 </td>
                 <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">
-                  {item.expGain.toLocaleString()}
+                  {item.ExpGain.toLocaleString()}
                 </td>
                 <td className="px-6 py-4 text-sm text-gray-900 max-w-xs">
-                  <div className="truncate" title={item.description}>
-                    {item.description}
+                  <div className="truncate" title={item.Description}>
+                    {item.Description}
                   </div>
                 </td>
               </tr>

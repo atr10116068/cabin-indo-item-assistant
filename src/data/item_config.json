@@ -1,0 +1,1454 @@
+{
+  "metadata": {
+    "total_items": 140,
+    "categories": {
+      "rarity": [
+        "Prestigious",
+        "Secret",
+        "Mythical",
+        "Uncommon",
+        "Epic",
+        "Common",
+        "Limited",
+        "Legendary"
+      ],
+      "preferred_terrain": [
+        "LeafyGrass",
+        "Grass",
+        "Sand",
+        "Anywhere",
+        "Rock",
+        "Ground"
+      ]
+    },
+    "generated_at": "2025-11-02",
+    "source": "Game Config Parser"
+  },
+  "items": [
+    {
+      "Name": "Apple",
+      "Price": 500,
+      "Limited": false,
+      "Chance": "1/20",
+      "Rarity": "Common",
+      "Description": "Juicy roadside find from small orchards. worth 500; prefers Grass.",
+      "Preferred": "Grass",
+      "ExpGain": 50
+    },
+    {
+      "Name": "Battery",
+      "Price": 1000,
+      "Limited": false,
+      "Chance": "1/20",
+      "Rarity": "Common",
+      "Description": "A leftover spark from old rigs. worth 1000; prefers Rock.",
+      "Preferred": "Rock",
+      "ExpGain": 100
+    },
+    {
+      "Name": "Bottle Cap",
+      "Price": 250,
+      "Limited": false,
+      "Chance": "1/20",
+      "Rarity": "Common",
+      "Description": "Tin tokens of travelers. worth 250; prefers LeafyGrass.",
+      "Preferred": "LeafyGrass",
+      "ExpGain": 40
+    },
+    {
+      "Name": "Bread",
+      "Price": 700,
+      "Limited": false,
+      "Chance": "1/20",
+      "Rarity": "Common",
+      "Description": "Still warm in memory. worth 700; found anywhere.",
+      "Preferred": "Anywhere",
+      "ExpGain": 70
+    },
+    {
+      "Name": "Broken Spoon",
+      "Price": 100,
+      "Limited": false,
+      "Chance": "1/20",
+      "Rarity": "Common",
+      "Description": "Campfire-cutlery with stories—worth 100; found anywhere.",
+      "Preferred": "Anywhere",
+      "ExpGain": 100
+    },
+    {
+      "Name": "Bunny",
+      "Price": 1250,
+      "Limited": false,
+      "Chance": "1/20",
+      "Rarity": "Common",
+      "Description": "Skittish friend of tall fields. worth 1250; prefers Grass.",
+      "Preferred": "Grass",
+      "ExpGain": 120
+    },
+    {
+      "Name": "Coal",
+      "Price": 2000,
+      "Limited": false,
+      "Chance": "1/20",
+      "Rarity": "Common",
+      "Description": "Night-black forge fuel. worth 2000; prefers Rock.",
+      "Preferred": "Rock",
+      "ExpGain": 40
+    },
+    {
+      "Name": "Cogwheel",
+      "Price": 300,
+      "Limited": false,
+      "Chance": "1/20",
+      "Rarity": "Common",
+      "Description": "A tooth from time’s machine. worth 300; prefers Rock.",
+      "Preferred": "Rock",
+      "ExpGain": 40
+    },
+    {
+      "Name": "Feather",
+      "Price": 50,
+      "Limited": false,
+      "Chance": "1/20",
+      "Rarity": "Common",
+      "Description": "A feather? bird feather?. worth 50; prefers LeafyGrass.",
+      "Preferred": "LeafyGrass",
+      "ExpGain": 50
+    },
+    {
+      "Name": "Black Feather",
+      "Price": 50,
+      "Limited": false,
+      "Chance": "1/20",
+      "Rarity": "Common",
+      "Description": "A feather? but black. where is this coming from. worth 50; prefers LeafyGrass.",
+      "Preferred": "LeafyGrass",
+      "ExpGain": 50
+    },
+    {
+      "Name": "Indomie Goreng",
+      "Price": 3000,
+      "Limited": false,
+      "Chance": "1/20",
+      "Rarity": "Common",
+      "Description": "Midnight-legend noodles. worth 3000; found anywhere.",
+      "Preferred": "Anywhere",
+      "ExpGain": 300
+    },
+    {
+      "Name": "Indomie Rendang",
+      "Price": 3000,
+      "Limited": false,
+      "Chance": "1/20",
+      "Rarity": "Common",
+      "Description": "Spiced comfort in a packet. worth 3000; found anywhere.",
+      "Preferred": "Anywhere",
+      "ExpGain": 300
+    },
+    {
+      "Name": "Metal Pipe",
+      "Price": 5000,
+      "Limited": false,
+      "Chance": "1/20",
+      "Rarity": "Common",
+      "Description": "Rattled loose from heavy machines. worth 5000; prefers Rock.",
+      "Preferred": "Rock",
+      "ExpGain": 500
+    },
+    {
+      "Name": "Onion",
+      "Price": 3500,
+      "Limited": false,
+      "Chance": "1/20",
+      "Rarity": "Common",
+      "Description": "Layers of tears and taste. worth 3500; prefers LeafyGrass.",
+      "Preferred": "LeafyGrass",
+      "ExpGain": 350
+    },
+    {
+      "Name": "Pebble",
+      "Price": 500,
+      "Limited": false,
+      "Chance": "1/20",
+      "Rarity": "Common",
+      "Description": "A pocket lucky stone. worth 500; prefers Rock.",
+      "Preferred": "Rock",
+      "ExpGain": 50
+    },
+    {
+      "Name": "Pinecone",
+      "Price": 150,
+      "Limited": false,
+      "Chance": "1/20",
+      "Rarity": "Common",
+      "Description": "Forest seed vault. worth 150; prefers LeafyGrass.",
+      "Preferred": "LeafyGrass",
+      "ExpGain": 150
+    },
+    {
+      "Name": "Rusty Nail",
+      "Price": 300,
+      "Limited": false,
+      "Chance": "1/20",
+      "Rarity": "Common",
+      "Description": "Holds old boards and memories. worth 300; found anywhere.",
+      "Preferred": "Anywhere",
+      "ExpGain": 300
+    },
+    {
+      "Name": "Seaweed",
+      "Price": 200,
+      "Limited": false,
+      "Chance": "1/20",
+      "Rarity": "Common",
+      "Description": "Briny green ribbons. worth 200; prefers Sand.",
+      "Preferred": "Sand",
+      "ExpGain": 200
+    },
+    {
+      "Name": "Shark Tooth",
+      "Price": 10000,
+      "Limited": false,
+      "Chance": "1/20",
+      "Rarity": "Common",
+      "Description": "Surf’s white trophy. worth 10000; prefers Sand.",
+      "Preferred": "Sand",
+      "ExpGain": 1000
+    },
+    {
+      "Name": "Tire",
+      "Price": 15000,
+      "Limited": false,
+      "Chance": "1/20",
+      "Rarity": "Common",
+      "Description": "Road-worn ring of rubber. worth 15000; prefers Ground.",
+      "Preferred": "Ground",
+      "ExpGain": 1500
+    },
+    {
+      "Name": "Water Bottle",
+      "Price": 2000,
+      "Limited": false,
+      "Chance": "1/20",
+      "Rarity": "Common",
+      "Description": "Traveler’s sip, sun-scratched. worth 2000; prefers LeafyGrass.",
+      "Preferred": "LeafyGrass",
+      "ExpGain": 200
+    },
+    {
+      "Name": "Wooden Plank",
+      "Price": 1000,
+      "Limited": false,
+      "Chance": "1/20",
+      "Rarity": "Common",
+      "Description": "A builder’s promise—worth 1000; prefers Grass.",
+      "Preferred": "Grass",
+      "ExpGain": 100
+    },
+    {
+      "Name": "Worn-Out Coin",
+      "Price": 50,
+      "Limited": false,
+      "Chance": "1/20",
+      "Rarity": "Common",
+      "Description": "Edges faded by many pockets—worth 50; found anywhere.",
+      "Preferred": "Anywhere",
+      "ExpGain": 40
+    },
+    {
+      "Name": "Ancient Pottery Shard",
+      "Price": 35000,
+      "Limited": false,
+      "Chance": "1/60",
+      "Rarity": "Uncommon",
+      "Description": "Table-talk from centuries ago—worth 35000; prefers Rock.",
+      "Preferred": "Rock",
+      "ExpGain": 350
+    },
+    {
+      "Name": "Baseball Bat",
+      "Price": 58000,
+      "Limited": false,
+      "Chance": "1/60",
+      "Rarity": "Uncommon",
+      "Description": "Scuffed by cheers and dust—worth 58000; found anywhere.",
+      "Preferred": "Anywhere",
+      "ExpGain": 580
+    },
+    {
+      "Name": "Bee",
+      "Price": 50000,
+      "Limited": false,
+      "Chance": "1/60",
+      "Rarity": "Uncommon",
+      "Description": "Little goldsmith of blossoms—worth 50000; prefers Grass.",
+      "Preferred": "Grass",
+      "ExpGain": 500
+    },
+    {
+      "Name": "Bronze Button",
+      "Price": 2500,
+      "Limited": false,
+      "Chance": "1/60",
+      "Rarity": "Uncommon",
+      "Description": "From a sturdy coat—worth 2500; found anywhere.",
+      "Preferred": "Anywhere",
+      "ExpGain": 25
+    },
+    {
+      "Name": "Celurit",
+      "Price": 100000,
+      "Limited": false,
+      "Chance": "1/60",
+      "Rarity": "Uncommon",
+      "Description": "A farmer’s crescent blade—worth 100000; found anywhere.",
+      "Preferred": "Anywhere",
+      "ExpGain": 1000
+    },
+    {
+      "Name": "Cool Glasses",
+      "Price": 20000,
+      "Limited": false,
+      "Chance": "1/60",
+      "Rarity": "Uncommon",
+      "Description": "Style in a glance—worth 20000; found anywhere.",
+      "Preferred": "Anywhere",
+      "ExpGain": 200
+    },
+    {
+      "Name": "Cool Worm",
+      "Price": 25000,
+      "Limited": false,
+      "Chance": "1/60",
+      "Rarity": "Uncommon",
+      "Description": "Chillest bait in the box—worth 25000; prefers Grass.",
+      "Preferred": "Grass",
+      "ExpGain": 250
+    },
+    {
+      "Name": "Couch",
+      "Price": 32500,
+      "Limited": false,
+      "Chance": "1/60",
+      "Rarity": "Uncommon",
+      "Description": "Dreams were napped here—worth 32500; prefers Ground.",
+      "Preferred": "Ground",
+      "ExpGain": 325
+    },
+    {
+      "Name": "Cracked Gemstone",
+      "Price": 75000,
+      "Limited": false,
+      "Chance": "1/60",
+      "Rarity": "Uncommon",
+      "Description": "Beauty with a scar—worth 75000; prefers Rock.",
+      "Preferred": "Rock",
+      "ExpGain": 750
+    },
+    {
+      "Name": "Kardus Indomie",
+      "Price": 65000,
+      "Limited": false,
+      "Chance": "1/60",
+      "Rarity": "Uncommon",
+      "Description": "Box of midnight feasts—worth 65000; found anywhere.",
+      "Preferred": "Anywhere",
+      "ExpGain": 650
+    },
+    {
+      "Name": "LPG",
+      "Price": 19000,
+      "Limited": false,
+      "Chance": "1/60",
+      "Rarity": "Uncommon",
+      "Description": "A canister of warmth—worth 19000; prefers Ground.",
+      "Preferred": "Ground",
+      "ExpGain": 190
+    },
+    {
+      "Name": "Lost Dog Tag",
+      "Price": 20000,
+      "Limited": false,
+      "Chance": "1/60",
+      "Rarity": "Uncommon",
+      "Description": "Name of a loyal friend—worth 20000; found anywhere.",
+      "Preferred": "Anywhere",
+      "ExpGain": 200
+    },
+    {
+      "Name": "Old Compass",
+      "Price": 42000,
+      "Limited": false,
+      "Chance": "1/60",
+      "Rarity": "Uncommon",
+      "Description": "Needle still dreams of journeys—worth 42000; prefers Sand.",
+      "Preferred": "Sand",
+      "ExpGain": 420
+    },
+    {
+      "Name": "Old Monitor",
+      "Price": 36700,
+      "Limited": false,
+      "Chance": "1/60",
+      "Rarity": "Uncommon",
+      "Description": "Glass that once glowed—worth 36700; prefers Ground.",
+      "Preferred": "Ground",
+      "ExpGain": 360
+    },
+    {
+      "Name": "Rat",
+      "Price": 2000,
+      "Limited": false,
+      "Chance": "1/60",
+      "Rarity": "Uncommon",
+      "Description": "Streetwise nibblers—worth 2000; prefers LeafyGrass.",
+      "Preferred": "LeafyGrass",
+      "ExpGain": 200
+    },
+    {
+      "Name": "Rose",
+      "Price": 10000,
+      "Limited": false,
+      "Chance": "1/60",
+      "Rarity": "Uncommon",
+      "Description": "A thorned promise—worth 10000; prefers Grass.",
+      "Preferred": "Grass",
+      "ExpGain": 100
+    },
+    {
+      "Name": "Scary Paper",
+      "Price": 5000,
+      "Limited": false,
+      "Chance": "1/60",
+      "Rarity": "Uncommon",
+      "Description": "A note that chills at midnight—worth 5000; found anywhere.",
+      "Preferred": "Anywhere",
+      "ExpGain": 500
+    },
+    {
+      "Name": "Sea Shell",
+      "Price": 75000,
+      "Limited": false,
+      "Chance": "1/60",
+      "Rarity": "Uncommon",
+      "Description": "Ocean’s quiet ear—worth 75000; prefers Sand.",
+      "Preferred": "Sand",
+      "ExpGain": 750
+    },
+    {
+      "Name": "Silver Ring",
+      "Price": 75000,
+      "Limited": false,
+      "Chance": "1/60",
+      "Rarity": "Uncommon",
+      "Description": "Moonlit circle—worth 75000; prefers Rock.",
+      "Preferred": "Rock",
+      "ExpGain": 750
+    },
+    {
+      "Name": "Sunflower",
+      "Price": 10000,
+      "Limited": false,
+      "Chance": "1/60",
+      "Rarity": "Uncommon",
+      "Description": "Faces the sun, always—worth 10000; prefers Grass.",
+      "Preferred": "Grass",
+      "ExpGain": 100
+    },
+    {
+      "Name": "Traffic Cone",
+      "Price": 23000,
+      "Limited": false,
+      "Chance": "1/60",
+      "Rarity": "Uncommon",
+      "Description": "Road’s tiny guardian—worth 23000; prefers LeafyGrass.",
+      "Preferred": "LeafyGrass",
+      "ExpGain": 230
+    },
+    {
+      "Name": "Turtle",
+      "Price": 50000,
+      "Limited": false,
+      "Chance": "1/60",
+      "Rarity": "Uncommon",
+      "Description": "Shell-bound wanderer—worth 50000; prefers Sand.",
+      "Preferred": "Sand",
+      "ExpGain": 500
+    },
+    {
+      "Name": "Wooden Fence",
+      "Price": 30000,
+      "Limited": false,
+      "Chance": "1/60",
+      "Rarity": "Uncommon",
+      "Description": "Weathered boundary—worth 30000; prefers Grass.",
+      "Preferred": "Grass",
+      "ExpGain": 300
+    },
+    {
+      "Name": "Apple Pie",
+      "Price": 250000,
+      "Limited": false,
+      "Chance": "1/180",
+      "Rarity": "Epic",
+      "Description": "Grandma’s victory slice—worth 250000; prefers Ground.",
+      "Preferred": "Ground",
+      "ExpGain": 2500
+    },
+    {
+      "Name": "Bear",
+      "Price": 300000,
+      "Limited": false,
+      "Chance": "1/180",
+      "Rarity": "Epic",
+      "Description": "Monarch of the thicket—worth 300000; prefers Grass.",
+      "Preferred": "Grass",
+      "ExpGain": 3000
+    },
+    {
+      "Name": "Bed",
+      "Price": 230000,
+      "Limited": false,
+      "Chance": "1/180",
+      "Rarity": "Epic",
+      "Description": "A map of dreams—worth 230000; prefers Ground.",
+      "Preferred": "Ground",
+      "ExpGain": 2300
+    },
+    {
+      "Name": "Dragonbone Dagger",
+      "Price": 500000,
+      "Limited": false,
+      "Chance": "1/180",
+      "Rarity": "Epic",
+      "Description": "Myth carved into edge—worth 500000; prefers Rock.",
+      "Preferred": "Rock",
+      "ExpGain": 5000
+    },
+    {
+      "Name": "Duck",
+      "Price": 3000,
+      "Limited": false,
+      "Chance": "1/180",
+      "Rarity": "Epic",
+      "Description": "Pond comedian—worth 3000; prefers Sand.",
+      "Preferred": "Sand",
+      "ExpGain": 3000
+    },
+    {
+      "Name": "Flute",
+      "Price": 56000,
+      "Limited": false,
+      "Chance": "1/180",
+      "Rarity": "Epic",
+      "Description": "A tune waiting for breath—worth 56000; found anywhere.",
+      "Preferred": "Anywhere",
+      "ExpGain": 5600
+    },
+    {
+      "Name": "Jade",
+      "Price": 150000,
+      "Limited": false,
+      "Chance": "1/180",
+      "Rarity": "Epic",
+      "Description": "Stone of calm rivers—worth 150000; prefers Rock.",
+      "Preferred": "Rock",
+      "ExpGain": 1500
+    },
+    {
+      "Name": "Keris",
+      "Price": 200000,
+      "Limited": false,
+      "Chance": "1/180",
+      "Rarity": "Epic",
+      "Description": "Wavy heirloom of courage—worth 200000; found anywhere.",
+      "Preferred": "Anywhere",
+      "ExpGain": 2000
+    },
+    {
+      "Name": "Magic Rune Stone",
+      "Price": 380000,
+      "Limited": false,
+      "Chance": "1/180",
+      "Rarity": "Epic",
+      "Description": "Glyphs that hum softly—worth 380000; prefers Rock.",
+      "Preferred": "Rock",
+      "ExpGain": 3800
+    },
+    {
+      "Name": "Minecraft Cake",
+      "Price": 240000,
+      "Limited": false,
+      "Chance": "1/180",
+      "Rarity": "Epic",
+      "Description": "Blocky sweetness—worth 240000; prefers Ground.",
+      "Preferred": "Ground",
+      "ExpGain": 2400
+    },
+    {
+      "Name": "Pink Diamond",
+      "Price": 450000,
+      "Limited": false,
+      "Chance": "1/180",
+      "Rarity": "Epic",
+      "Description": "Blush of the earth—worth 450000; prefers Rock.",
+      "Preferred": "Rock",
+      "ExpGain": 4500
+    },
+    {
+      "Name": "Pirate's Cutlass",
+      "Price": 370000,
+      "Limited": false,
+      "Chance": "1/180",
+      "Rarity": "Epic",
+      "Description": "Salt-stained steel—worth 370000; prefers Sand.",
+      "Preferred": "Sand",
+      "ExpGain": 3700
+    },
+    {
+      "Name": "Ruby",
+      "Price": 650000,
+      "Limited": false,
+      "Chance": "1/180",
+      "Rarity": "Epic",
+      "Description": "Heartfire in crystal—worth 650000; prefers Rock.",
+      "Preferred": "Rock",
+      "ExpGain": 6500
+    },
+    {
+      "Name": "Sapphire",
+      "Price": 650000,
+      "Limited": false,
+      "Chance": "1/180",
+      "Rarity": "Epic",
+      "Description": "Sky trapped in stone—worth 650000; prefers Rock.",
+      "Preferred": "Rock",
+      "ExpGain": 6500
+    },
+    {
+      "Name": "Scarecrow",
+      "Price": 75000,
+      "Limited": false,
+      "Chance": "1/180",
+      "Rarity": "Epic",
+      "Description": "Silent guardian of fields—worth 75000; prefers Grass.",
+      "Preferred": "Grass",
+      "ExpGain": 7500
+    },
+    {
+      "Name": "Snake",
+      "Price": 123000,
+      "Limited": false,
+      "Chance": "1/180",
+      "Rarity": "Epic",
+      "Description": "Shedder of secrets—worth 123000; prefers Grass.",
+      "Preferred": "Grass",
+      "ExpGain": 1200
+    },
+    {
+      "Name": "Timeworn Crown",
+      "Price": 385000,
+      "Limited": false,
+      "Chance": "1/180",
+      "Rarity": "Epic",
+      "Description": "Rule reduced to a ring—worth 385000; found anywhere.",
+      "Preferred": "Anywhere",
+      "ExpGain": 3850
+    },
+    {
+      "Name": "Shark",
+      "Price": 265000,
+      "Limited": false,
+      "Chance": "1/180",
+      "Rarity": "Epic",
+      "Description": "Grey ghost of currents—worth 265000; prefers Sand.",
+      "Preferred": "Sand",
+      "ExpGain": 2650
+    },
+    {
+      "Name": "Washing Machine",
+      "Price": 465000,
+      "Limited": false,
+      "Chance": "1/180",
+      "Rarity": "Epic",
+      "Description": "Where socks vanish—worth 465000; prefers Ground.",
+      "Preferred": "Ground",
+      "ExpGain": 4650
+    },
+    {
+      "Name": "Broken Car",
+      "Price": 345000,
+      "Limited": false,
+      "Chance": "1/540",
+      "Rarity": "Legendary",
+      "Description": "A road tale in rust—worth 3450000; prefers Ground.",
+      "Preferred": "Ground",
+      "ExpGain": 34500
+    },
+    {
+      "Name": "Broken Tractor",
+      "Price": 585000,
+      "Limited": false,
+      "Chance": "1/540",
+      "Rarity": "Legendary",
+      "Description": "Fields still cling to it—worth 5850000; prefers Ground.",
+      "Preferred": "Ground",
+      "ExpGain": 58500
+    },
+    {
+      "Name": "Bronze Trophy",
+      "Price": 100000,
+      "Limited": false,
+      "Chance": "1/540",
+      "Rarity": "Legendary",
+      "Description": "Third place, first in heart—worth 1000000; prefers Rock.",
+      "Preferred": "Rock",
+      "ExpGain": 10000
+    },
+    {
+      "Name": "Diamond",
+      "Price": 750000,
+      "Limited": false,
+      "Chance": "1/540",
+      "Rarity": "Legendary",
+      "Description": "Pressure’s perfect memory—worth 7500000; prefers Rock.",
+      "Preferred": "Rock",
+      "ExpGain": 75000
+    },
+    {
+      "Name": "Diamond Ring",
+      "Price": 800000,
+      "Limited": false,
+      "Chance": "1/540",
+      "Rarity": "Legendary",
+      "Description": "Promises made round—worth 8000000; prefers Rock.",
+      "Preferred": "Rock",
+      "ExpGain": 80000
+    },
+    {
+      "Name": "Dragon Skull",
+      "Price": 467000,
+      "Limited": false,
+      "Chance": "1/540",
+      "Rarity": "Legendary",
+      "Description": "A grin from legend—worth 4670000; prefers Rock.",
+      "Preferred": "Rock",
+      "ExpGain": 46700
+    },
+    {
+      "Name": "Dragon Spine",
+      "Price": 543000,
+      "Limited": false,
+      "Chance": "1/540",
+      "Rarity": "Legendary",
+      "Description": "Vertebrae of myth—worth 5430000; prefers Rock.",
+      "Preferred": "Rock",
+      "ExpGain": 54300
+    },
+    {
+      "Name": "Enchanted Compass",
+      "Price": 464500,
+      "Limited": false,
+      "Chance": "1/540",
+      "Rarity": "Legendary",
+      "Description": "It points to stories—worth 4645000; prefers Sand.",
+      "Preferred": "Sand",
+      "ExpGain": 46450
+    },
+    {
+      "Name": "Goat Skull",
+      "Price": 156000,
+      "Limited": false,
+      "Chance": "1/540",
+      "Rarity": "Legendary",
+      "Description": "Mountain’s quiet relic—worth 1560000; prefers Rock.",
+      "Preferred": "Rock",
+      "ExpGain": 15000
+    },
+    {
+      "Name": "Gold Trophy",
+      "Price": 1000000,
+      "Limited": false,
+      "Chance": "1/540",
+      "Rarity": "Legendary",
+      "Description": "Shines like victory—worth 10000000; prefers Rock.",
+      "Preferred": "Rock",
+      "ExpGain": 10000
+    },
+    {
+      "Name": "Labubu",
+      "Price": 5000,
+      "Limited": false,
+      "Chance": "1/540",
+      "Rarity": "Legendary",
+      "Description": "Mischief in a grin—worth 50000; prefers LeafyGrass.",
+      "Preferred": "LeafyGrass",
+      "ExpGain": 50000
+    },
+    {
+      "Name": "Obsidian Idol",
+      "Price": 65000,
+      "Limited": false,
+      "Chance": "1/540",
+      "Rarity": "Legendary",
+      "Description": "Volcanic reverence—worth 650000; prefers Rock.",
+      "Preferred": "Rock",
+      "ExpGain": 65000
+    },
+    {
+      "Name": "Painting Board",
+      "Price": 278500,
+      "Limited": false,
+      "Chance": "1/540",
+      "Rarity": "Legendary",
+      "Description": "Colors still whisper—worth 2785000; prefers Grass.",
+      "Preferred": "Grass",
+      "ExpGain": 27850
+    },
+    {
+      "Name": "Palm Tree",
+      "Price": 56000,
+      "Limited": false,
+      "Chance": "1/540",
+      "Rarity": "Legendary",
+      "Description": "Shade for drifters—worth 560000; prefers Sand.",
+      "Preferred": "Sand",
+      "ExpGain": 50000
+    },
+    {
+      "Name": "Pharaoh's Amulet",
+      "Price": 579000,
+      "Limited": false,
+      "Chance": "1/540",
+      "Rarity": "Legendary",
+      "Description": "Kingsleep charm—worth 5790000; prefers Rock.",
+      "Preferred": "Rock",
+      "ExpGain": 57900
+    },
+    {
+      "Name": "Silver Trophy",
+      "Price": 500000,
+      "Limited": false,
+      "Chance": "1/540",
+      "Rarity": "Legendary",
+      "Description": "Second place, silver pride—worth 5000000; prefers Rock.",
+      "Preferred": "Rock",
+      "ExpGain": 50000
+    },
+    {
+      "Name": "Tree",
+      "Price": 46000,
+      "Limited": false,
+      "Chance": "1/540",
+      "Rarity": "Legendary",
+      "Description": "Rings of history—worth 460000; prefers Grass.",
+      "Preferred": "Grass",
+      "ExpGain": 46000
+    },
+    {
+      "Name": "White Dwarf",
+      "Price": 3500000,
+      "Limited": false,
+      "Chance": "1/1620",
+      "Rarity": "Mythical",
+      "Description": "A white dwarf is a stellar core remnant composed mostly of electron-degenerate matter. A white dwarf is very dense: in an Earth-sized volume, it packs a mass that is comparable to the Sun. worth 35000000; found anywhere.",
+      "Preferred": "Anywhere",
+      "ExpGain": 350000
+    },
+    {
+      "Name": "Sephiroth Wing",
+      "Price": 6666666,
+      "Limited": false,
+      "Chance": "1/1620",
+      "Rarity": "Mythical",
+      "Description": "Idris (Enoch) meets an angel, which the wrath of God falls upon, and his wings and hair are cut off; after Idris prays for him to God, his wings and hair are restored. worth 75000000; found anywhere.",
+      "Preferred": "Anywhere",
+      "ExpGain": 666666
+    },
+    {
+      "Name": "Seraphim Wing",
+      "Price": 7500000,
+      "Limited": false,
+      "Chance": "1/1620",
+      "Rarity": "Mythical",
+      "Description": "A seminal passage in the Book of Isaiah (Isaiah 6:1–8) used the term to describe six-winged beings that fly around the Throne of God crying holy, holy, holy. worth 75000000; found anywhere.",
+      "Preferred": "Anywhere",
+      "ExpGain": 750000
+    },
+    {
+      "Name": "Black Hole",
+      "Price": 5500000,
+      "Limited": false,
+      "Chance": "1/1620",
+      "Rarity": "Mythical",
+      "Description": "A black hole is an astronomical body so dense that its gravity prevents anything from escaping, even light. worth 55000000; found anywhere.",
+      "Preferred": "Anywhere",
+      "ExpGain": 550000
+    },
+    {
+      "Name": "Quasar",
+      "Price": 5500000,
+      "Limited": false,
+      "Chance": "1/1620",
+      "Rarity": "Mythical",
+      "Description": "A quasar (/ˈkweɪzɑːr/ KWAY-zar) is an extremely luminous active galactic nucleus (AGN). It is sometimes known as a quasi-stellar object, abbreviated QSO. worth 55000000; found anywhere.",
+      "Preferred": "Anywhere",
+      "ExpGain": 550000
+    },
+    {
+      "Name": "Candy Cane",
+      "Price": 7500000,
+      "Limited": false,
+      "Chance": "1/1620",
+      "Rarity": "Mythical",
+      "Description": "Hmm... can i eat this... worth 75000000; found anywhere.",
+      "Preferred": "Anywhere",
+      "ExpGain": 750000
+    },
+    {
+      "Name": "Blue Sword",
+      "Price": 5500000,
+      "Limited": false,
+      "Chance": "1/1620",
+      "Rarity": "Mythical",
+      "Description": "??? worth 55000000; found anywhere.",
+      "Preferred": "Anywhere",
+      "ExpGain": 550000
+    },
+    {
+      "Name": "Red Sword",
+      "Price": 5500000,
+      "Limited": false,
+      "Chance": "1/1620",
+      "Rarity": "Mythical",
+      "Description": "??? worth 55000000; found anywhere.",
+      "Preferred": "Anywhere",
+      "ExpGain": 550000
+    },
+    {
+      "Name": "Angel Statue",
+      "Price": 4000000,
+      "Limited": false,
+      "Chance": "1/1620",
+      "Rarity": "Mythical",
+      "Description": "Marble that hears prayers—worth 40000000; found anywhere.",
+      "Preferred": "Anywhere",
+      "ExpGain": 400000
+    },
+    {
+      "Name": "Celestial Gem",
+      "Price": 2300000,
+      "Limited": false,
+      "Chance": "1/1620",
+      "Rarity": "Mythical",
+      "Description": "A star’s quiet tear—worth 23000000; prefers Rock.",
+      "Preferred": "Rock",
+      "ExpGain": 230000
+    },
+    {
+      "Name": "Chrono Relic",
+      "Price": 3200000,
+      "Limited": false,
+      "Chance": "1/1620",
+      "Rarity": "Mythical",
+      "Description": "Time caught mid-breath—worth 32000000; found anywhere.",
+      "Preferred": "Anywhere",
+      "ExpGain": 320000
+    },
+    {
+      "Name": "Cryoblade",
+      "Price": 1200000,
+      "Limited": false,
+      "Chance": "1/1620",
+      "Rarity": "Mythical",
+      "Description": "Winter forged an edge—worth 12000000; found anywhere.",
+      "Preferred": "Anywhere",
+      "ExpGain": 120000
+    },
+    {
+      "Name": "Eternity Core",
+      "Price": 2000000,
+      "Limited": false,
+      "Chance": "1/1620",
+      "Rarity": "Mythical",
+      "Description": "Heartbeat of forever—worth 20000000; prefers Rock.",
+      "Preferred": "Rock",
+      "ExpGain": 200000
+    },
+    {
+      "Name": "Horeg",
+      "Price": 1500000,
+      "Limited": false,
+      "Chance": "1/1620",
+      "Rarity": "Mythical",
+      "Description": "A name spoken by embers—worth 15000000; found anywhere.",
+      "Preferred": "Anywhere",
+      "ExpGain": 150000
+    },
+    {
+      "Name": "Iron Golem",
+      "Price": 300000,
+      "Limited": false,
+      "Chance": "1/1620",
+      "Rarity": "Mythical",
+      "Description": "Silent gatekeeper—worth 3000000; prefers Rock.",
+      "Preferred": "Rock",
+      "ExpGain": 300000
+    },
+    {
+      "Name": "Mahoraga",
+      "Price": 3500000,
+      "Limited": false,
+      "Chance": "1/1620",
+      "Rarity": "Mythical",
+      "Description": "Wheels of fate turning—worth 35000000; found anywhere.",
+      "Preferred": "Anywhere",
+      "ExpGain": 350000
+    },
+    {
+      "Name": "Mammoth",
+      "Price": 4500000,
+      "Limited": false,
+      "Chance": "1/1620",
+      "Rarity": "Mythical",
+      "Description": "Tundra giant—worth 45000000; prefers LeafyGrass.",
+      "Preferred": "LeafyGrass",
+      "ExpGain": 450000
+    },
+    {
+      "Name": "Phoenix Feather",
+      "Price": 5000000,
+      "Limited": false,
+      "Chance": "1/1620",
+      "Rarity": "Mythical",
+      "Description": "Ash-born promise—worth 50000000; prefers LeafyGrass.",
+      "Preferred": "LeafyGrass",
+      "ExpGain": 500000
+    },
+    {
+      "Name": "Pirate Ship",
+      "Price": 6850000,
+      "Limited": false,
+      "Chance": "1/1620",
+      "Rarity": "Mythical",
+      "Description": "Deck of storms—worth 68500000; prefers Sand.",
+      "Preferred": "Sand",
+      "ExpGain": 685000
+    },
+    {
+      "Name": "Sakura Tree",
+      "Price": 505050,
+      "Limited": false,
+      "Chance": "1/1620",
+      "Rarity": "Mythical",
+      "Description": "Petals like snow—worth 5050505; prefers Grass.",
+      "Preferred": "Grass",
+      "ExpGain": 505050
+    },
+    {
+      "Name": "Satelite",
+      "Price": 4500000,
+      "Limited": false,
+      "Chance": "1/1620",
+      "Rarity": "Mythical",
+      "Description": "A silent eye above—worth 45000000; found anywhere.",
+      "Preferred": "Anywhere",
+      "ExpGain": 450000
+    },
+    {
+      "Name": "Crewmate",
+      "Price": 4500000,
+      "Limited": false,
+      "Chance": "1/1620",
+      "Rarity": "Mythical",
+      "Description": "Always a task to do—worth 45000000; found anywhere.",
+      "Preferred": "Anywhere",
+      "ExpGain": 450000
+    },
+    {
+      "Name": "UFO",
+      "Price": 4500000,
+      "Limited": false,
+      "Chance": "1/1620",
+      "Rarity": "Mythical",
+      "Description": "Blink and it’s gone—worth 45000000; found anywhere.",
+      "Preferred": "Anywhere",
+      "ExpGain": 450000
+    },
+    {
+      "Name": "Void Crystal",
+      "Price": 1250000,
+      "Limited": false,
+      "Chance": "1/1620",
+      "Rarity": "Mythical",
+      "Description": "Dark light in facets—worth 12500000; prefers Rock.",
+      "Preferred": "Rock",
+      "ExpGain": 125000
+    },
+    {
+      "Name": "Void Gauntlet",
+      "Price": 1250000,
+      "Limited": false,
+      "Chance": "1/1620",
+      "Rarity": "Mythical",
+      "Description": "Fingers of nothing—worth 12500000; found anywhere.",
+      "Preferred": "Anywhere",
+      "ExpGain": 125000
+    },
+    {
+      "Name": "Heavenly Relic",
+      "Price": 50000000,
+      "Limited": false,
+      "Chance": "1/7500",
+      "Rarity": "Secret",
+      "Description": "A shard of daylight—worth 50000000; found anywhere.",
+      "Preferred": "Anywhere",
+      "ExpGain": 750000
+    },
+    {
+      "Name": "Corrupted Relic",
+      "Price": 50000000,
+      "Limited": false,
+      "Chance": "1/7500",
+      "Rarity": "Secret",
+      "Description": "Light stained by shadow—worth 50000000; found anywhere.",
+      "Preferred": "Anywhere",
+      "ExpGain": 750000
+    },
+    {
+      "Name": "Angel Engine",
+      "Price": 750000000,
+      "Limited": false,
+      "Chance": "1/75000",
+      "Rarity": "Secret",
+      "Description": "Wings turned into gears—worth 750000000; found anywhere.",
+      "Preferred": "Anywhere",
+      "ExpGain": 7500000
+    },
+    {
+      "Name": "Galaxy",
+      "Price": 550000000,
+      "Limited": false,
+      "Chance": "1/55000",
+      "Rarity": "Secret",
+      "Description": "A swirl of destinies—worth 550000000; found anywhere.",
+      "Preferred": "Anywhere",
+      "ExpGain": 5500000
+    },
+    {
+      "Name": "Gear Of Time",
+      "Price": 425000000,
+      "Limited": false,
+      "Chance": "1/42500",
+      "Rarity": "Secret",
+      "Description": "Ticks from eternity—worth 425000000; found anywhere.",
+      "Preferred": "Anywhere",
+      "ExpGain": 4250000
+    },
+    {
+      "Name": "Inferno Lantern",
+      "Price": 135000000,
+      "Limited": false,
+      "Chance": "1/13500",
+      "Rarity": "Secret",
+      "Description": "A flame that remembers—worth 135000000; found anywhere.",
+      "Preferred": "Anywhere",
+      "ExpGain": 1350000
+    },
+    {
+      "Name": "Sephiroth Spear",
+      "Price": 650000000,
+      "Limited": false,
+      "Chance": "1/65000",
+      "Rarity": "Secret",
+      "Description": "Paths forged sharp—worth 650000000; found anywhere.",
+      "Preferred": "Anywhere",
+      "ExpGain": 6500000
+    },
+    {
+      "Name": "Spectral Sword",
+      "Price": 45000000,
+      "Limited": false,
+      "Chance": "1/45000",
+      "Rarity": "Secret",
+      "Description": "Steel between worlds—worth 45000000; found anywhere.",
+      "Preferred": "Anywhere",
+      "ExpGain": 4500000
+    },
+    {
+      "Name": "Star Engine",
+      "Price": 500000000,
+      "Limited": false,
+      "Chance": "1/50000",
+      "Rarity": "Secret",
+      "Description": "Constellations under a hood—worth 500000000; found anywhere.",
+      "Preferred": "Anywhere",
+      "ExpGain": 5000000
+    },
+    {
+      "Name": "Azure Ember",
+      "Price": 125000000,
+      "Limited": false,
+      "Chance": "1/12500",
+      "Rarity": "Secret",
+      "Description": "Blue fire that won’t die—worth 125000000; found anywhere.",
+      "Preferred": "Anywhere",
+      "ExpGain": 1250000
+    },
+    {
+      "Name": "Forsaken Sigil",
+      "Price": 350000000,
+      "Limited": false,
+      "Chance": "1/35000",
+      "Rarity": "Secret",
+      "Description": "A mark the world forgot—worth 350000000; found anywhere.",
+      "Preferred": "Anywhere",
+      "ExpGain": 3500000
+    },
+    {
+      "Name": "Valkyrie Helm",
+      "Price": 100000000,
+      "Limited": false,
+      "Chance": "1/10000",
+      "Rarity": "Secret",
+      "Description": "Helm of chosen storms—worth 10000000; found anywhere.",
+      "Preferred": "Anywhere",
+      "ExpGain": 1000000
+    },
+    {
+      "Name": "Awakened: Angel Engine",
+      "Price": 0,
+      "Limited": false,
+      "Chance": "0",
+      "Rarity": "Prestigious",
+      "Description": "The hymn became motion—worth 0; no preferred ground.",
+      "Preferred": "",
+      "ExpGain": 0
+    },
+    {
+      "Name": "Awakened: Galaxy",
+      "Price": 0,
+      "Limited": false,
+      "Chance": "0",
+      "Rarity": "Prestigious",
+      "Description": "Stars learned to dance—worth 0; no preferred ground.",
+      "Preferred": "",
+      "ExpGain": 0
+    },
+    {
+      "Name": "Awakened: Gear Of Time",
+      "Price": 0,
+      "Limited": false,
+      "Chance": "0",
+      "Rarity": "Prestigious",
+      "Description": "Hours unfurl like wings—worth 0; no preferred ground.",
+      "Preferred": "",
+      "ExpGain": 0
+    },
+    {
+      "Name": "Awakened: Inferno Lantern",
+      "Price": 0,
+      "Limited": false,
+      "Chance": "0",
+      "Rarity": "Prestigious",
+      "Description": "The flame remembers your name—worth 0; no preferred ground.",
+      "Preferred": "",
+      "ExpGain": 0
+    },
+    {
+      "Name": "Awakened: Sephiroth Spear",
+      "Price": 0,
+      "Limited": false,
+      "Chance": "0",
+      "Rarity": "Prestigious",
+      "Description": "Paths converge to a point—worth 0; no preferred ground.",
+      "Preferred": "",
+      "ExpGain": 0
+    },
+    {
+      "Name": "Awakened: Spectral Sword",
+      "Price": 0,
+      "Limited": false,
+      "Chance": "0",
+      "Rarity": "Prestigious",
+      "Description": "A cut between worlds—worth 0; no preferred ground.",
+      "Preferred": "",
+      "ExpGain": 0
+    },
+    {
+      "Name": "Awakened: Star Engine",
+      "Price": 0,
+      "Limited": false,
+      "Chance": "0",
+      "Rarity": "Prestigious",
+      "Description": "Galaxies hum on cue—worth 0; no preferred ground.",
+      "Preferred": "",
+      "ExpGain": 0
+    },
+    {
+      "Name": "Awakened: Azure Ember",
+      "Price": 0,
+      "Limited": false,
+      "Chance": "0",
+      "Rarity": "Prestigious",
+      "Description": "Blue fire fully awake—worth 0; no preferred ground.",
+      "Preferred": "",
+      "ExpGain": 0
+    },
+    {
+      "Name": "Awakened: Forsaken Sigil",
+      "Price": 0,
+      "Limited": false,
+      "Chance": "0",
+      "Rarity": "Prestigious",
+      "Description": "The forgotten mark found voice—worth 0; no preferred ground.",
+      "Preferred": "",
+      "ExpGain": 0
+    },
+    {
+      "Name": "Awakened: Valkyrie Helm",
+      "Price": 0,
+      "Limited": false,
+      "Chance": "0",
+      "Rarity": "Prestigious",
+      "Description": "Thunder chose a bearer—worth 0; no preferred ground.",
+      "Preferred": "",
+      "ExpGain": 0
+    },
+    {
+      "Name": "COIN P",
+      "Price": 0,
+      "Limited": true,
+      "Chance": "0",
+      "Rarity": "Limited",
+      "Description": "Independent Limited Item",
+      "Preferred": "",
+      "ExpGain": 0
+    },
+    {
+      "Name": "COIN U",
+      "Price": 0,
+      "Limited": true,
+      "Chance": "0",
+      "Rarity": "Limited",
+      "Description": "Independent Limited Item",
+      "Preferred": "",
+      "ExpGain": 0
+    },
+    {
+      "Name": "COIN T",
+      "Price": 0,
+      "Limited": true,
+      "Chance": "0",
+      "Rarity": "Limited",
+      "Description": "Independent Limited Item",
+      "Preferred": "",
+      "ExpGain": 0
+    },
+    {
+      "Name": "COIN I",
+      "Price": 0,
+      "Limited": true,
+      "Chance": "0",
+      "Rarity": "Limited",
+      "Description": "Independent Limited Item",
+      "Preferred": "",
+      "ExpGain": 0
+    },
+    {
+      "Name": "COIN H",
+      "Price": 0,
+      "Limited": true,
+      "Chance": "0",
+      "Rarity": "Limited",
+      "Description": "Independent Limited Item",
+      "Preferred": "",
+      "ExpGain": 0
+    },
+    {
+      "Name": "COIN 0",
+      "Price": 0,
+      "Limited": true,
+      "Chance": "0",
+      "Rarity": "Limited",
+      "Description": "Independent Limited Item",
+      "Preferred": "",
+      "ExpGain": 0
+    },
+    {
+      "Name": "BROKEN COIN P",
+      "Price": 0,
+      "Limited": true,
+      "Chance": "0",
+      "Rarity": "Limited",
+      "Description": "Independent Limited Item",
+      "Preferred": "",
+      "ExpGain": 0
+    },
+    {
+      "Name": "BROKEN COIN U",
+      "Price": 0,
+      "Limited": true,
+      "Chance": "0",
+      "Rarity": "Limited",
+      "Description": "Independent Limited Item",
+      "Preferred": "",
+      "ExpGain": 0
+    },
+    {
+      "Name": "BROKEN COIN T",
+      "Price": 0,
+      "Limited": true,
+      "Chance": "0",
+      "Rarity": "Limited",
+      "Description": "Independent Limited Item",
+      "Preferred": "",
+      "ExpGain": 0
+    },
+    {
+      "Name": "BROKEN COIN I",
+      "Price": 0,
+      "Limited": true,
+      "Chance": "0",
+      "Rarity": "Limited",
+      "Description": "Independent Limited Item",
+      "Preferred": "",
+      "ExpGain": 0
+    },
+    {
+      "Name": "BROKEN COIN H",
+      "Price": 0,
+      "Limited": true,
+      "Chance": "0",
+      "Rarity": "Limited",
+      "Description": "Independent Limited Item",
+      "Preferred": "",
+      "ExpGain": 0
+    }
+  ],
+  "statistics": {
+    "by_rarity": {
+      "Common": 23,
+      "Uncommon": 23,
+      "Epic": 19,
+      "Legendary": 17,
+      "Mythical": 25,
+      "Secret": 12,
+      "Prestigious": 10,
+      "Limited": 11
+    },
+    "by_terrain": {
+      "Grass": 14,
+      "Rock": 28,
+      "LeafyGrass": 11,
+      "Anywhere": 45,
+      "Sand": 11,
+      "Ground": 10
+    },
+    "price_range": {
+      "min": 0,
+      "max": 750000000,
+      "average": 27438673.685714286
+    }
+  }
+}
