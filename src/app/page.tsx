@@ -56,9 +56,9 @@ export default function Home() {
       <div className="container mx-auto px-4 py-8 max-w-7xl">
         {/* Header */}
         <div className="text-center mb-8">
-          <h1 className="text-4xl font-bold text-gray-800 mb-2">🏠 Cabin Indo Item Assistant</h1>
-          <p className="text-lg text-gray-600">Asisten manajemen item, pet, dan crafting untuk game Indonesia</p>
-          <p className="text-sm text-gray-500 mt-2">🚀 Deployed on GitHub Pages</p>
+          <h1 className="text-4xl font-bold text-gray-900 mb-2 drop-shadow-sm">🏠 Cabin Indo Item Assistant</h1>
+          <p className="text-lg text-gray-700 font-medium">Asisten manajemen item, pet, dan crafting untuk Cabin Indo</p>
+          <p className="text-sm text-gray-600 mt-2 font-medium">🚀 Deployed on GitHub Pages</p>
         </div>
 
         {/* Search Bar */}
@@ -88,8 +88,8 @@ export default function Home() {
               onClick={() => setActiveTab(tab.id)}
               className={`px-6 py-3 rounded-lg font-medium transition-all duration-200 ${
                 activeTab === tab.id
-                  ? 'bg-blue-600 text-white shadow-lg transform -translate-y-0.5'
-                  : 'bg-white text-gray-700 hover:bg-blue-50 shadow-md hover:shadow-lg'
+                  ? 'bg-blue-600 text-white shadow-lg transform -translate-y-0.5 border-2 border-blue-700'
+                  : 'bg-white text-gray-800 hover:bg-blue-50 shadow-md hover:shadow-lg border-2 border-gray-200 hover:border-blue-300'
               }`}
             >
               {tab.label}
@@ -113,8 +113,10 @@ export default function Home() {
         </div>
 
         {/* Footer */}
-        <footer className="mt-16 pt-8 border-t border-gray-200 text-center text-gray-500">
-          <p>&copy; 2025 Cabin Indo Item Assistant. Built with Next.js and Tailwind CSS.</p>
+        <footer className="mt-16 pt-8 border-t border-gray-300 text-center">
+          <p className="text-gray-700 font-medium">
+            &copy; 2025 Cabin Indo Item Assistant — by <span className="text-blue-600 font-semibold">Pykel</span> × <span className="text-purple-600 font-semibold">AI</span> • <span className="text-gray-800">Next.js</span> × <span className="text-blue-500">Tailwind CSS</span>
+          </p>
         </footer>
       </div>
     </div>

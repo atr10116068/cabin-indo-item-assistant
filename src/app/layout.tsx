@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Cabin Indo Item Assistant",
-  description: "Asisten manajemen item, pet, dan crafting untuk game Cabin Indo",
+  description: "Asisten manajemen item, pet, dan crafting untuk Cabin Indo",
 };
 
 export default function RootLayout({
