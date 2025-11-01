@@ -1,8 +1,8 @@
 {
   "metadata": {
     "config_type": "Crafting Configuration",
-    "total_recipes": 2,
-    "generated_at": "2025-11-02 00:17:46",
+    "total_recipes": 10,
+    "generated_at": "2025-11-02 00:29:55",
     "version": "1.0.0",
     "source": "Game Crafting Config Parser"
   },
@@ -11,33 +11,80 @@
       "Prestigious"
     ],
     "requirement_categories": [
-      "Item",
-      "Pet"
+      "Pet",
+      "Item"
     ],
     "unique_materials": [
-      "Diamond",
-      "Fallen Angel",
-      "Feather",
-      "Seraphim Wing",
-      "Red Martian",
-      "Celestial Gem",
-      "Snow Angel",
-      "Painting Board",
-      "Angel Statue",
+      "Enchanted Compass",
+      "Dragon Skull",
+      "Queen Arachnid",
+      "Crewmate",
       "Galaxy",
-      "Apple",
-      "Timeworn Crown",
       "Eclipse Dragon",
-      "Ghost Bride",
-      "Satelite",
       "Angel Engine",
-      "Chrono Relic",
-      "Sunflower",
-      "Ruby",
-      "Rose",
-      "Crimson Devil",
+      "Celestial Gem",
+      "Red Martian",
+      "Cryoblade",
+      "Eclipse Demon",
       "Sapphire",
-      "Crewmate"
+      "Cogwheel",
+      "Valkyrie Helm",
+      "Black Feather",
+      "Forsaken Sigil",
+      "Seaweed",
+      "Eternity Core",
+      "Apple",
+      "Bloodmoon Wolf",
+      "Wishing Star",
+      "Sea Shell",
+      "Sunflower",
+      "Scary Paper",
+      "Magic Rune Stone",
+      "Soul Dragon",
+      "Void Crystal",
+      "Nyx",
+      "Goat Skull",
+      "UFO",
+      "Crystal Beserker",
+      "Bloodmoon Deer",
+      "Yeti",
+      "Galactic Melody",
+      "Void Gauntlet",
+      "Gear Of Time",
+      "Phoenix Feather",
+      "Poltergeist",
+      "Rose",
+      "Phantom Menace",
+      "Inferno Lantern",
+      "Chrono Relic",
+      "White Dwarf",
+      "Timeworn Crown",
+      "Satelite",
+      "Diamond",
+      "Painting Board",
+      "Star Engine",
+      "Sephiroth Spear",
+      "Azure Ember",
+      "Crimson Devil",
+      "Feather",
+      "Overgrown Paladin",
+      "Fallen Angel",
+      "Spectral Sword",
+      "Ghost Bride",
+      "Angel Statue",
+      "Amber Dragon",
+      "Black Hole",
+      "Eyesore",
+      "Sephiroth Wing",
+      "Chaotic Fracture",
+      "Shark",
+      "Seraphim Wing",
+      "Ruby",
+      "Gold Trophy",
+      "Snow Angel",
+      "Nexus",
+      "Gemstone Colossus",
+      "Quasar"
     ]
   },
   "recipes": [
@@ -169,43 +216,490 @@
           "category": "Pet"
         }
       ]
+    },
+    {
+      "output": "Awakened: Gear Of Time",
+      "price": 7500000000,
+      "rarity": "Prestigious",
+      "requirements": [
+        {
+          "name": "Gear Of Time",
+          "amount": 10,
+          "category": "Item"
+        },
+        {
+          "name": "Black Hole",
+          "amount": 19,
+          "category": "Item"
+        },
+        {
+          "name": "Quasar",
+          "amount": 19,
+          "category": "Item"
+        },
+        {
+          "name": "Chrono Relic",
+          "amount": 22,
+          "category": "Item"
+        },
+        {
+          "name": "Enchanted Compass",
+          "amount": 49,
+          "category": "Item"
+        },
+        {
+          "name": "Timeworn Crown",
+          "amount": 199,
+          "category": "Item"
+        },
+        {
+          "name": "Eternity Core",
+          "amount": 29,
+          "category": "Item"
+        },
+        {
+          "name": "Void Crystal",
+          "amount": 29,
+          "category": "Item"
+        },
+        {
+          "name": "Cogwheel",
+          "amount": 999,
+          "category": "Item"
+        },
+        {
+          "name": "Soul Dragon",
+          "amount": 21,
+          "category": "Pet"
+        },
+        {
+          "name": "Nexus",
+          "amount": 21,
+          "category": "Pet"
+        }
+      ]
+    },
+    {
+      "output": "Awakened: Inferno Lantern",
+      "price": 500000000,
+      "rarity": "Prestigious",
+      "requirements": [
+        {
+          "name": "Inferno Lantern",
+          "amount": 10,
+          "category": "Item"
+        },
+        {
+          "name": "Phoenix Feather",
+          "amount": 4,
+          "category": "Item"
+        },
+        {
+          "name": "Rose",
+          "amount": 99,
+          "category": "Item"
+        },
+        {
+          "name": "Ruby",
+          "amount": 9,
+          "category": "Item"
+        },
+        {
+          "name": "Queen Arachnid",
+          "amount": 4,
+          "category": "Pet"
+        },
+        {
+          "name": "Crimson Devil",
+          "amount": 9,
+          "category": "Pet"
+        },
+        {
+          "name": "Amber Dragon",
+          "amount": 4,
+          "category": "Pet"
+        }
+      ]
+    },
+    {
+      "output": "Awakened: Sephiroth Spear",
+      "price": 12500000000,
+      "rarity": "Prestigious",
+      "requirements": [
+        {
+          "name": "Sephiroth Spear",
+          "amount": 10,
+          "category": "Item"
+        },
+        {
+          "name": "Sephiroth Wing",
+          "amount": 66,
+          "category": "Item"
+        },
+        {
+          "name": "Angel Statue",
+          "amount": 44,
+          "category": "Item"
+        },
+        {
+          "name": "Celestial Gem",
+          "amount": 44,
+          "category": "Item"
+        },
+        {
+          "name": "Ruby",
+          "amount": 666,
+          "category": "Item"
+        },
+        {
+          "name": "Black Feather",
+          "amount": 3333,
+          "category": "Item"
+        },
+        {
+          "name": "Eyesore",
+          "amount": 444,
+          "category": "Pet"
+        },
+        {
+          "name": "Fallen Angel",
+          "amount": 21,
+          "category": "Pet"
+        },
+        {
+          "name": "Eclipse Dragon",
+          "amount": 111,
+          "category": "Pet"
+        },
+        {
+          "name": "Eclipse Demon",
+          "amount": 111,
+          "category": "Pet"
+        }
+      ]
+    },
+    {
+      "output": "Awakened: Spectral Sword",
+      "price": 3500000000,
+      "rarity": "Prestigious",
+      "requirements": [
+        {
+          "name": "Spectral Sword",
+          "amount": 10,
+          "category": "Item"
+        },
+        {
+          "name": "Cryoblade",
+          "amount": 19,
+          "category": "Item"
+        },
+        {
+          "name": "Void Gauntlet",
+          "amount": 19,
+          "category": "Item"
+        },
+        {
+          "name": "Void Crystal",
+          "amount": 19,
+          "category": "Item"
+        },
+        {
+          "name": "Magic Rune Stone",
+          "amount": 150,
+          "category": "Item"
+        },
+        {
+          "name": "Scary Paper",
+          "amount": 99,
+          "category": "Item"
+        },
+        {
+          "name": "Sapphire",
+          "amount": 299,
+          "category": "Item"
+        },
+        {
+          "name": "Poltergeist",
+          "amount": 99,
+          "category": "Pet"
+        },
+        {
+          "name": "Ghost Bride",
+          "amount": 19,
+          "category": "Pet"
+        },
+        {
+          "name": "Phantom Menace",
+          "amount": 19,
+          "category": "Pet"
+        },
+        {
+          "name": "Nyx",
+          "amount": 75,
+          "category": "Pet"
+        }
+      ]
+    },
+    {
+      "output": "Awakened: Star Engine",
+      "price": 10000000000,
+      "rarity": "Prestigious",
+      "requirements": [
+        {
+          "name": "Star Engine",
+          "amount": 10,
+          "category": "Item"
+        },
+        {
+          "name": "White Dwarf",
+          "amount": 99,
+          "category": "Item"
+        },
+        {
+          "name": "Satelite",
+          "amount": 50,
+          "category": "Item"
+        },
+        {
+          "name": "Crewmate",
+          "amount": 50,
+          "category": "Item"
+        },
+        {
+          "name": "UFO",
+          "amount": 50,
+          "category": "Item"
+        },
+        {
+          "name": "Eternity Core",
+          "amount": 50,
+          "category": "Item"
+        },
+        {
+          "name": "Celestial Gem",
+          "amount": 50,
+          "category": "Item"
+        },
+        {
+          "name": "Galactic Melody",
+          "amount": 5,
+          "category": "Pet"
+        },
+        {
+          "name": "Wishing Star",
+          "amount": 5,
+          "category": "Pet"
+        }
+      ]
+    },
+    {
+      "output": "Awakened: Azure Ember",
+      "price": 1000000000,
+      "rarity": "Prestigious",
+      "requirements": [
+        {
+          "name": "Azure Ember",
+          "amount": 10,
+          "category": "Item"
+        },
+        {
+          "name": "Cryoblade",
+          "amount": 9,
+          "category": "Item"
+        },
+        {
+          "name": "Sapphire",
+          "amount": 49,
+          "category": "Item"
+        },
+        {
+          "name": "Sea Shell",
+          "amount": 199,
+          "category": "Item"
+        },
+        {
+          "name": "Seaweed",
+          "amount": 199,
+          "category": "Item"
+        },
+        {
+          "name": "Phoenix Feather",
+          "amount": 9,
+          "category": "Item"
+        },
+        {
+          "name": "Diamond",
+          "amount": 111,
+          "category": "Item"
+        },
+        {
+          "name": "Snow Angel",
+          "amount": 14,
+          "category": "Pet"
+        },
+        {
+          "name": "Yeti",
+          "amount": 14,
+          "category": "Pet"
+        },
+        {
+          "name": "Nexus",
+          "amount": 4,
+          "category": "Pet"
+        }
+      ]
+    },
+    {
+      "output": "Awakened: Forsaken Sigil",
+      "price": 8000000000,
+      "rarity": "Prestigious",
+      "requirements": [
+        {
+          "name": "Forsaken Sigil",
+          "amount": 10,
+          "category": "Item"
+        },
+        {
+          "name": "Apple",
+          "amount": 999,
+          "category": "Item"
+        },
+        {
+          "name": "Ruby",
+          "amount": 299,
+          "category": "Item"
+        },
+        {
+          "name": "Goat Skull",
+          "amount": 49,
+          "category": "Item"
+        },
+        {
+          "name": "Dragon Skull",
+          "amount": 49,
+          "category": "Item"
+        },
+        {
+          "name": "Shark",
+          "amount": 99,
+          "category": "Item"
+        },
+        {
+          "name": "Bloodmoon Deer",
+          "amount": 99,
+          "category": "Pet"
+        },
+        {
+          "name": "Bloodmoon Wolf",
+          "amount": 99,
+          "category": "Pet"
+        },
+        {
+          "name": "Crimson Devil",
+          "amount": 29,
+          "category": "Pet"
+        },
+        {
+          "name": "Chaotic Fracture",
+          "amount": 25,
+          "category": "Pet"
+        }
+      ]
+    },
+    {
+      "output": "Awakened: Valkyrie Helm",
+      "price": 1000000000,
+      "rarity": "Prestigious",
+      "requirements": [
+        {
+          "name": "Valkyrie Helm",
+          "amount": 10,
+          "category": "Item"
+        },
+        {
+          "name": "Angel Statue",
+          "amount": 4,
+          "category": "Item"
+        },
+        {
+          "name": "Diamond",
+          "amount": 25,
+          "category": "Item"
+        },
+        {
+          "name": "Sapphire",
+          "amount": 25,
+          "category": "Item"
+        },
+        {
+          "name": "Ruby",
+          "amount": 25,
+          "category": "Item"
+        },
+        {
+          "name": "Feather",
+          "amount": 49,
+          "category": "Item"
+        },
+        {
+          "name": "Gold Trophy",
+          "amount": 10,
+          "category": "Item"
+        },
+        {
+          "name": "Gemstone Colossus",
+          "amount": 19,
+          "category": "Pet"
+        },
+        {
+          "name": "Crystal Beserker",
+          "amount": 19,
+          "category": "Pet"
+        },
+        {
+          "name": "Overgrown Paladin",
+          "amount": 9,
+          "category": "Pet"
+        }
+      ]
     }
   ],
   "statistics": {
     "by_rarity": {
-      "Prestigious": 2
+      "Prestigious": 10
     },
     "by_complexity": {
-      "Complex": 2
+      "Complex": 9,
+      "Medium": 1
     },
     "material_usage": {
-      "Feather": 4444,
+      "Feather": 4493,
+      "Black Feather": 3333,
+      "Apple": 1998,
+      "Ruby": 1249,
+      "Rose": 1098,
       "Sunflower": 999,
-      "Rose": 999,
-      "Apple": 999,
-      "Diamond": 444,
-      "Painting Board": 444,
-      "Sapphire": 444,
-      "Fallen Angel": 444,
-      "Snow Angel": 444,
-      "Timeworn Crown": 250
+      "Cogwheel": 999,
+      "Sapphire": 817,
+      "Diamond": 580,
+      "Fallen Angel": 465
     },
     "category_distribution": {
-      "Item": 17,
-      "Pet": 6
+      "Item": 70,
+      "Pet": 31
     },
     "price_analysis": {
-      "min_price": 7500000000,
+      "min_price": 500000000,
       "max_price": 29999999999,
-      "average_price": 18749999999.5,
-      "total_value": 37499999999
+      "average_price": 8149999999.9,
+      "total_value": 81499999999
     },
     "complexity_analysis": {
-      "min_requirements": 11,
+      "min_requirements": 7,
       "max_requirements": 12,
-      "average_requirements": 11.5,
+      "average_requirements": 10.1,
       "most_complex_recipe": "Awakened: Angel Engine",
-      "simplest_recipe": "Awakened: Galaxy"
+      "simplest_recipe": "Awakened: Inferno Lantern"
     }
   }
 }
