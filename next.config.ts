@@ -6,8 +6,8 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true
   },
-  basePath: process.env.NODE_ENV === 'production' ? '/game-item-manager' : '',
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/game-item-manager/' : '',
+  basePath: process.env.NODE_ENV === 'production' ? '/cabin-indo-item-assistant' : '',
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/cabin-indo-item-assistant/' : '',
 };
 
 export default nextConfig;

@@ -1,6 +1,6 @@
-# Game Item Manager 🎮
+# Cabin Indo Item Assistant 🎮
 
-A responsive React.js web application for managing game items, pets, and crafting recipes with intelligent search and level-based recommendations.
+Aplikasi web React.js responsif untuk mengelola item game, pet, dan resep crafting dengan pencarian cerdas dan rekomendasi berbasis level untuk game Indonesia.
 
 ## Features ✨
 
@@ -44,7 +44,7 @@ A responsive React.js web application for managing game items, pets, and craftin
 
 1. **Navigate to project directory**
 ```bash
-cd game-item-manager
+cd cabin-indo-item-assistant
 ```
 
 2. **Install dependencies** (already installed)
@@ -143,4 +143,4 @@ The application uses Tailwind CSS. Modify classes in components or add custom st
 
 ---
 
-**Built with ❤️ using Next.js, TypeScript, and Tailwind CSS**
+**Dibuat dengan ❤️ menggunakan Next.js, TypeScript, dan Tailwind CSS untuk komunitas gaming Indonesia**

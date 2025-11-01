@@ -35,13 +35,13 @@ export default function LevelRecommendations() {
 
   return (
     <div className="bg-white rounded-lg shadow-md p-6">
-      <h2 className="text-2xl font-bold text-gray-800 mb-6">Level-Based Recommendations</h2>
+      <h2 className="text-2xl font-bold text-gray-800 mb-6">Rekomendasi Berdasarkan Level</h2>
       
       <div className="mb-6 space-y-4">
         <div className="flex flex-col sm:flex-row gap-4 items-start sm:items-center">
           <div className="flex items-center gap-3">
             <label htmlFor="userLevel" className="text-sm font-medium text-gray-700 whitespace-nowrap">
-              Your Level:
+              Level Anda:
             </label>
             <input
               id="userLevel"
@@ -56,7 +56,7 @@ export default function LevelRecommendations() {
           
           <div className="flex items-center gap-3">
             <label htmlFor="category" className="text-sm font-medium text-gray-700 whitespace-nowrap">
-              Show:
+              Tampilkan:
             </label>
             <select
               id="category"
@@ -64,9 +64,9 @@ export default function LevelRecommendations() {
               onChange={(e) => setSelectedCategory(e.target.value)}
               className="px-3 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none"
             >
-              <option value="all">All Recommendations</option>
-              <option value="items">Items Only</option>
-              <option value="pets">Pets Only</option>
+              <option value="all">Semua Rekomendasi</option>
+              <option value="items">Item Saja</option>
+              <option value="pets">Pet Saja</option>
             </select>
           </div>
         </div>

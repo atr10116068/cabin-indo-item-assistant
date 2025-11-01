@@ -45,7 +45,7 @@ export default function Home() {
   }, [searchQuery]);
 
   const tabs = [
-    { id: 'recommendations' as const, label: 'Level Recommendations', count: null },
+    { id: 'recommendations' as const, label: 'Rekomendasi Level', count: null },
     { id: 'items' as const, label: 'Items', count: filteredItems.length },
     { id: 'pets' as const, label: 'Pets', count: filteredPets.length },
     { id: 'crafting' as const, label: 'Crafting', count: filteredRecipes.length },
@@ -56,8 +56,8 @@ export default function Home() {
       <div className="container mx-auto px-4 py-8 max-w-7xl">
         {/* Header */}
         <div className="text-center mb-8">
-          <h1 className="text-4xl font-bold text-gray-800 mb-2">Game Item Manager</h1>
-          <p className="text-lg text-gray-600">Manage your items, pets, and crafting recipes with ease</p>
+          <h1 className="text-4xl font-bold text-gray-800 mb-2">Cabin Indo Item Assistant</h1>
+          <p className="text-lg text-gray-600">Asisten manajemen item, pet, dan crafting untuk game Indonesia</p>
         </div>
 
         {/* Search Bar */}
@@ -113,7 +113,7 @@ export default function Home() {
 
         {/* Footer */}
         <footer className="mt-16 pt-8 border-t border-gray-200 text-center text-gray-500">
-          <p>&copy; 2025 Game Item Manager. Built with Next.js and Tailwind CSS.</p>
+          <p>&copy; 2025 Cabin Indo Item Assistant. Built with Next.js and Tailwind CSS.</p>
         </footer>
       </div>
     </div>

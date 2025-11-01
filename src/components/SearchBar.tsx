@@ -8,7 +8,7 @@ interface SearchBarProps {
   placeholder?: string;
 }
 
-export default function SearchBar({ onSearch, placeholder = "Search items, pets, or crafting recipes..." }: SearchBarProps) {
+export default function SearchBar({ onSearch, placeholder = "Cari items, pets, atau resep crafting..." }: SearchBarProps) {
   const [query, setQuery] = useState('');
 
   const handleSearch = (value: string) => {
